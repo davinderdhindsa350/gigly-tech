@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "gigly-tech",
+    "public": "../gigly-tech",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
