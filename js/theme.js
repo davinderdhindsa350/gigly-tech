@@ -40,7 +40,7 @@
                     },
                     arrows: {
                         style:"normal",
-                        enable:true,
+                        enable:false,
                         hide_onmobile:true,
                         hide_under:992,
                         hide_onleave:true,
@@ -60,7 +60,7 @@
                         }
                     },
                     bullets: {
-                        enable:true,
+                        enable:false,
                         hide_onmobile:true,
                         hide_under:768,
                         style:"hesperiden",
