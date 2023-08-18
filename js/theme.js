@@ -19,7 +19,7 @@
             });
         };
     };
-    navbarFixed();
+    // navbarFixed();
     
     
     
