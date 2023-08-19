@@ -588,6 +588,8 @@ i:before {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+  height: 93px;
+  width:93px;
 }
 
 .feature_item h4 {
