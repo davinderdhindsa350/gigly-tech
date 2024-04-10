@@ -1172,6 +1172,34 @@ figure figcaption {
   color: #fff;
 }
 
+.sticky-wrapper .btn {
+  padding: 10px 10px !important;
+}
+.sticky-wrapper.is-sticky .btn.free-download {
+  background: #2d71a1;
+}
+.sticky-wrapper .site-navbar .btn.free-download:hover{
+  color: #2d71a1 !important  ;
+}
+.sticky-wrapper.is-sticky .site-navbar .btn.free-download:hover{
+  color: #fff !important  ;
+}
+.sticky-wrapper .site-navbar li:last-child{
+  margin-right: -20px;
+  margin-left: 50px;
+}
+.site-mobile-menu .btn {
+  padding: 10px 10px !important;
+}
+.site-mobile-menu .btn.btn-outline-white {
+  border: 2px solid #2d71a1;
+  background: none;
+  color: #2d71a1;
+}
+.site-mobile-menu .btn.btn-outline-white:hover {
+  background: #2d71a1;
+  color: #fff;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
