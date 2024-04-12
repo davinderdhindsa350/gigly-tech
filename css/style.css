@@ -67,13 +67,13 @@ figure figcaption {
 }
 
 .site-section {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg, #3db3c5, #274685);
+  background: linear-gradient(-45deg, #58C69B, #333333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -173,7 +173,7 @@ figure figcaption {
 }
 
 .step .number {
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #58C69B, #58C69B);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -665,7 +665,7 @@ figure figcaption {
 --------------------------------------------------------------*/
 
 .hero-section {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/hero-bg.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero-bg.jpg);
   position: relative;
 }
 
@@ -699,7 +699,7 @@ figure figcaption {
 }
 
 .hero-section h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: #fff;
   font-weight: 700;
   margin-bottom: 30px;
@@ -1160,19 +1160,17 @@ figure figcaption {
 }
 /*custom qr css*/
 .cta-qr-code {
-  background: linear-gradient(to right, #274685 0%, #3db3c5 100%);
+  background: linear-gradient(to right, #333333 0%, #58C69B 100%);
   border-radius: 16px;
   margin: 20px;
   padding: 32px 40px;
 }
-
 .cta-qr-code h2{
   color: #fff;
 }
 .cta-qr-code p{
   color: #fff;
 }
-
 .sticky-wrapper .btn {
   padding: 10px 10px !important;
 }
@@ -1207,6 +1205,17 @@ figure figcaption {
 }
 .post-entry .btn {
   padding: 7px 15px !important;
+}
+#features {
+  padding-top: 0rem;;
+}
+.site-section h2>a {
+  text-decoration: none;
+  color: #000;
+}
+.site-section h2>a:hover {
+  color: #58C69B;
+  
 }
 /*--------------------------------------------------------------
 # Footer
