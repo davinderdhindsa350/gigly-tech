@@ -15,7 +15,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #696969;
+  color: #484848;
   line-height: 1.5;
 }
 
@@ -49,7 +49,7 @@ h6,
 }
 
 .text-primary {
-  color: #2d71a1 !important;
+  color: #58C69B !important;
 }
 
 .border-top {
@@ -124,7 +124,7 @@ figure figcaption {
 }
 
 .btn.btn-primary {
-  background: #2d71a1;
+  background: #58C69B;
   background: linear-gradient(-45deg, #1391a5, #274685);
   color: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
@@ -161,7 +161,7 @@ figure figcaption {
 }
 
 .feature-1 p {
-  color: #696969;
+  color: #484848;
 }
 
 /* Step */
@@ -256,7 +256,7 @@ figure figcaption {
 }
 
 .pricing h3 {
-  color: #2d71a1;
+  color: #58C69B;
 }
 
 .pricing .price-cta {
@@ -298,7 +298,7 @@ figure figcaption {
 }
 
 .pricing .btn-white:hover {
-  color: #2d71a1;
+  color: #58C69B;
 }
 
 .pricing.popular {
@@ -320,7 +320,7 @@ figure figcaption {
 }
 
 .pricing.popular .btn-white {
-  border: 2px solid #2d71a1;
+  border: 2px solid #58C69B;
 }
 
 /* CTA Section */
@@ -418,7 +418,7 @@ figure figcaption {
 .form-control:focus {
   outline: none;
   box-shadow: none;
-  border: 1px solid #2d71a1;
+  border: 1px solid #58C69B;
 }
 
 .php-email-form .validate {
@@ -515,11 +515,11 @@ figure figcaption {
 
 .post-entry .post-text h3 a:hover {
   text-decoration: none;
-  color: #2d71a1;
+  color: #58C69B;
 }
 
 .post-entry .post-text .readmore {
-  color: #2d71a1;
+  color: #58C69B;
 }
 
 .sidebar-box {
@@ -781,7 +781,7 @@ figure figcaption {
 }
 
 .site-navbar .site-navigation .site-menu > li > a:hover {
-  color: #2d71a1;
+  color: #58C69B;
 }
 
 .site-navbar .site-navigation .site-menu > li.active > a {
@@ -852,7 +852,7 @@ figure figcaption {
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active {
-  color: #2d71a1 !important;
+  color: #58C69B !important;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
@@ -892,7 +892,7 @@ figure figcaption {
 .site-navbar .site-navigation .site-menu .has-children:hover > a,
 .site-navbar .site-navigation .site-menu .has-children:focus > a,
 .site-navbar .site-navigation .site-menu .has-children:active > a {
-  color: #2d71a1;
+  color: #58C69B;
 }
 
 .site-navbar .site-navigation .site-menu .has-children:hover,
@@ -993,7 +993,7 @@ figure figcaption {
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #2d71a1;
+  color: #58C69B;
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -1002,7 +1002,7 @@ figure figcaption {
 }
 
 .site-mobile-menu .site-nav-wrap li.active > a {
-  color: #2d71a1;
+  color: #58C69B;
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
@@ -1217,6 +1217,69 @@ figure figcaption {
   color: #58C69B;
   
 }
+.team .feature-1 .wrap-icon {
+  height: 250px;
+  width: 250px;
+}
+.team img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*--------------------------------
+    4. SERVICE TOP AREA
+---------------------------------*/
+
+.single-service {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.service-icon {
+  background: #58C69B none repeat scroll 0 0;
+  border-color: #58C69B;
+  color: #ffffff;
+  font-size: 30px;
+  height: 60px;
+  margin: 0 auto 25px;
+  padding-top: 7px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 60px;
+}
+
+.single-service:hover .service-icon {
+  border: 1px solid #58C69B;
+  background-color: #fff;
+  color: #292929;
+}
+
+
+/*--------------------------------
+  6. SERVICE BOTTOM ARAE
+---------------------------------*/
+
+.single-service.right {
+  padding-right: 80px;
+}
+
+.single-service.right .service-icon {
+  position: absolute;
+  right: 0;
+}
+
+.single-service.left {
+  padding-left: 80px;
+}
+
+.single-service.left .service-icon {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1270,7 +1333,7 @@ figure figcaption {
 
 .social a:hover {
   color: #fff;
-  background: #2d71a1;
+  background: #58C69B;
 }
 
 @media screen and (max-width: 992px) {
