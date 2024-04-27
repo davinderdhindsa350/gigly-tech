@@ -1206,7 +1206,7 @@ figure figcaption {
 .post-entry .btn {
   padding: 7px 15px !important;
 }
-#features {
+#community {
   padding-top: 0rem;;
 }
 .site-section h2>a {
@@ -1809,4 +1809,15 @@ figure figcaption {
 .style-3 .pricing-footer .btn-act.btn-bg:hover {
   background: #212121;
   border-color: #212121;
+}
+img.site-logo{
+  width: 170px;
+}
+.sticky-wrapper.is-sticky .site-navbar .site-logo
+{
+  content: url("../img/logo_black.png");
+}
+.sticky-wrapper .site-navbar .site-logo
+{
+  content: url("../img/logo_white.png");
 }
