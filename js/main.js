@@ -63,6 +63,17 @@
       
     });
 
+	$(window).load(function() {
+		var $this = $(this),
+				w = $this.width();
+
+			if ( w < 768 ) {
+				$('.reload-class').removeClass('order-2');
+			} else {
+				$('.reload-class').addClass('order-2');
+			}
+	});
+
 		$(window).resize(function() {
 			var $this = $(this),
 				w = $this.width();
@@ -71,6 +82,11 @@
 				if ( $('body').hasClass('offcanvas-menu') ) {
 					$('body').removeClass('offcanvas-menu');
 				}
+			}
+			if ( w < 768 ) {
+				$('.reload-class').removeClass('order-2');
+			} else {
+				$('.reload-class').addClass('order-2');
 			}
 		})
 

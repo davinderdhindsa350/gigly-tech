@@ -1338,6 +1338,9 @@ figure figcaption {
   color: #fff;
   background: #58C69B;
 }
+img.site-logo{
+  width: 170px;
+}
 
 @media screen and (max-width: 992px) {
   .hero-section .wave {
@@ -1389,6 +1392,28 @@ figure figcaption {
 @media screen and (max-width: 768px) {
   .cta-section h2 {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  img.site-logo {
+    width: 120px;
+  }
+  .hero-section .iphone-wrap .phone-1 {
+    margin-left: -50px;
+    height:90%;
+  }
+  .hero-section .iphone-wrap .phone-2 {
+    height: 90%;
+  }
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  #community {
+    padding-top: 3rem;
+  }
+  #qr-code {
+    padding-top: 0rem;
   }
 }
 
@@ -1809,9 +1834,6 @@ figure figcaption {
 .style-3 .pricing-footer .btn-act.btn-bg:hover {
   background: #212121;
   border-color: #212121;
-}
-img.site-logo{
-  width: 170px;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-logo
 {
