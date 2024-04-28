@@ -158,3 +158,59 @@ AOS.init({
 	duration: 1000,
 	once: true
 });
+
+$('form.contact-us-form').submit(function() {
+	sendMail();
+});
+
+function sendMail() {
+	console.log("send");
+	var name = document.getElementById("name").value;
+	var email = document.getElementById("email").value;
+	var contact = document.getElementById("phone").value;
+	var message = document.getElementById("message").value;
+	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+	var phoneformat = /^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/;
+	var flag = false;
+	if (name == '' || name == null || name == undefined) {
+		alert("Name should not be empty");
+		return;
+	}
+	if ((contact == null || contact == '' || contact == undefined ) && (email == '' || email == null || email == undefined)) {
+		alert("Email or Phone Number should not be empty!!");
+		return;
+	}
+	if (email != '' && (email.length < 1 || !email.match(mailformat))) {
+		alert("Invalid Email !!");
+		return;
+	}
+	if (contact != '' && (contact.length < 1 || !contact.match(phoneformat))) {
+		alert("Invalid Phone Number !!");
+		return;
+	}
+	/*----------------------------
+	if (contact.match(/\d/g) == null || contact.match(/\d/g).length != 10) {
+		alert("Invalid Contact Number !!");
+		return;
+	}
+	----------------------------*/
+
+		Email.send({
+			SecureToken : "a897fcb9-eabf-48a5-86ec-0310d4a485a5",
+			To: 'info@gigly.io,davinderdhindsa350@gmail.com',
+			From: "davinderdhindsa356@gmail.com",
+			Subject: "Client Request Gigly Info website",
+			Body: "Client Name :  " + document.getElementById("name").value + " <br/>Email: " + document.getElementById("email").value + "<br/>Contact : " + document.getElementById("phone").value + "<br/>Message :" + document.getElementById("message").value
+		}).then(
+			message => {
+				if (message == "OK") {
+					alert("Thanks we will connect you soon.");
+					document.getElementById("name").value = '';
+					document.getElementById("email").value = '';
+					document.getElementById("phone").value = '';
+					document.getElementById("message").value = '';
+				} else
+					alert("Please send mail to info@gigly.io . Sorry due to some System error not able to save details")
+			}
+		)
+}
