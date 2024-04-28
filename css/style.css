@@ -131,7 +131,7 @@ figure figcaption {
 
 .btn.btn-primary {
   background: #58C69B;
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #58C69B, #58C69B);
   color: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
