@@ -214,3 +214,8 @@ function sendMail() {
 			}
 		)
 }
+
+/* Disable right-click menu on page */
+document.addEventListener('contextmenu', function(event) { 
+    event.preventDefault()
+});
