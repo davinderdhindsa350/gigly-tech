@@ -2,6 +2,7 @@
   "hosting": {
     "site": "gigly-tech",
     "public": "../gigly-tech",
+    "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,7 +10,7 @@
     ],
     "rewrites": [
       {
-        "source": "**",
+        "source": "/",
         "destination": "/index.html"
       }
     ]
