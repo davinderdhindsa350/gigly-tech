@@ -135,6 +135,9 @@ figure figcaption {
   color: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
+.subscribe.btn.btn-primary {
+  float: left;
+}
 
 /* Feature 1 */
 
